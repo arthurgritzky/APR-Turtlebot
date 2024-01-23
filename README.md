@@ -19,7 +19,7 @@ The program reads the lidar scan message from the turtlebot. The message gets wr
 
 The program reads the odom scan message from the turtlebot. The message gets written in a shared memory as well. 
 
-**command.cpp**
+**comander.cpp**
 
 This program use the data of shared memory of scan and odom listener. The messages get processed and the relevant data get extracted. The lidar message contains the distances of the lidar points obtained by the lidar sensor. The shift between distances is used to determine the relative position of pole to the robot. The odometry message provides the position and orientation of the robot absolute to the starting point. The pose at the initialization of the robot is the origin of the coordinate System of the robot. Those coordinates are used to create 4 positions around the pole. The desired movement of the robot is the following:
 
@@ -40,14 +40,27 @@ The working principle of the created application is shown in the following syste
 
 **Usage:**
 
-create the following applications with the following programms:
+use the following applications with the following programms:
 
 Compile des LidarReaders:
-g++ listener_scan.cpp -o lidarScanner.o -lrt
+g++ listener_scan.cpp -o lidarScan.o -lrt
 
 Compile des Odom-Readers:
-g++ listener_odom.cpp -o odomScanner.o -lrt
+g++ listener_odom.cpp -o odomScan.o -lrt
 
-Compile the controller:
+Compile the comander:
 g++ comander.cpp -o comander.o -lrt
+
+(Note it’s important to execute the commander last, because listener scan and odom are responsible for creation the shared memory onto which the commander attaches)
+
+./lidarScan
+
+./odomScan
+
+./commander
+
+
+
+
+
 
