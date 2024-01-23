@@ -60,6 +60,17 @@ g++ comander.cpp -o comander.o -lrt
 ./commander
 
 
+The following parameters need to be ajusted for the application:
+
+o	IP-address of the robot  (in this case 192.168.100.54)
+o	Port of scan message from robot (in this case 9997)
+o	Port of odom message from robot (in this case 9998)
+o	Port of cmd_vel message to the robot(in this case 9999)
+
+
+
+
+
 
 
 
