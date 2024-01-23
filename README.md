@@ -79,7 +79,7 @@ o	Port of cmd_vel message to the robot (in this case 9999)
 This application uses shared memory to transfer data from the listers to the commander. In order to avoid read and write conflicts semaphores are used.
 This way simultaneous reading and writing in the shared memory is prevented. A que of write first then read is established. 
 
-![share_memory_with_semaphores](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/91da5c46-6c38-4541-a5fc-919593d4075d)
+![share_memory_with_semaphores](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/71abbb17-e117-4410-8193-6abfa39b56e6)
 
 
 
