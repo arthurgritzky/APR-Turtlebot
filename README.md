@@ -85,8 +85,14 @@ This way simultaneous reading and writing in the shared memory is prevented. A q
 **Communication with the turtlebot**
 
 	lidar scan
+
+
 	odom message
+
+
 	cmd_vel message
+
+
 
 
 
