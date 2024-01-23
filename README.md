@@ -84,23 +84,23 @@ This way simultaneous reading and writing in the shared memory is prevented. A q
 
 **Communication with the turtlebot**
 
-	lidar scan
+•	lidar scan
 
 ![message_scan](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/6b989244-2493-4bf6-93bb-1332757a472c)
 
+The distances are used to determine the relative position of the pole.
 
-
-	odom message
+•	odom message
 
 ![message_odom](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/169e5689-4a59-4f21-8144-89383595f0f5)
 
+The odom message is used to determine the position an oriontation of the robot in regards to the starting position (origing)
 
-	cmd_vel message
+•	cmd_vel message
 
 ![message_cmd_vel](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/f515c5e6-9438-4055-b036-739495b23527)
 
-
-
+This command allows for the request of a linear and angular velocity of the robot.
 
 
 
