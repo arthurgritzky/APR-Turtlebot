@@ -14,6 +14,7 @@ The following applications have been created to solve the given task:
 **listener_scan.cpp**
 
 The program reads the lidar scan message from the turtlebot. The message gets written in a shared memory. 
+
 **listener_odom.cpp**
 
 The program reads the odom scan message from the turtlebot. The message gets written in a shared memory as well. 
