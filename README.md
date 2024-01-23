@@ -82,7 +82,11 @@ This way simultaneous reading and writing in the shared memory is prevented. A q
 ![share_memory_with_semaphores](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/71abbb17-e117-4410-8193-6abfa39b56e6)
 
 
+**Communication with the turtlebot**
 
+	lidar scan
+	odom message
+	cmd_vel message
 
 
 
