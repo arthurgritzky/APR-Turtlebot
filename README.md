@@ -29,6 +29,10 @@ This program use the data of shared memory of scan and odom listener. The messag
 •	Return to the starting position
 
 
+The working principle of the created application is shown in the following system context diagram:
+
+
+![system_context_diagram](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/68c6b370-64c3-49db-9a2c-3cfebbb3db92)
 
 
 
