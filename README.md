@@ -74,6 +74,9 @@ o	Port of odom message from robot (in this case 9998)
 o	Port of cmd_vel message to the robot (in this case 9999)
 
 
+This application uses shared memory to transfer data from the listers to the commander. In order to avoid read and write conflicts semaphores are used.
+This way simultaneous reading and writing in the shared memory is prevented. A que of write than read is established. 
+
 
 
 
