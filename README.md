@@ -51,7 +51,7 @@ g++ listener_odom.cpp -o odomScan.o -lrt
 Compile the comander:
 g++ comander.cpp -o comander.o -lrt
 
-(Note it’s important to execute the commander last, because listener scan and odom are responsible for creation the shared memory onto which the commander attaches)
+(Note it’s important to execute the comander last, because listener scan and odom are responsible for creation the shared memory and semaphores onto which the commander attaches)
 
 ./lidarScan
 
