@@ -1,0 +1,8 @@
+https://www.geeksforgeeks.org/ipc-shared-memory/
+
+https://www.geeksforgeeks.org/socket-programming-cc/
+
+https://www.geeksforgeeks.org/convert-character-array-to-string-in-c/
+
+Semaphores with shared Memory:
+https://github.com/BradenPeele/Linux_SharedMemory_Semaphores/blob/main/prod_cons_Exec.png
