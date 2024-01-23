@@ -5,6 +5,10 @@
 
 The task of this project is to drive a turtlebot3 model burger out of a box and around a pole (ROLL). The project should be implemented in C++ without the usage of additional software besides standard libraries (no ROS). A standard ROS application is installed on the turtlebot prior to this project. This framework publishes the lidar scan an the odometry of the turtlebot and allows for call of angular and linear movements over a TCP-IP-connection. The developed program should be able to interpret the provide data and compute a commands to drive the robot a given path.
 
+
+![Task](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/84ae5df5-99ca-4b83-87f2-219a590606ed)
+
+
 The following applications have been created to solve the given task:
 
 **listener_scan.cpp**
@@ -17,8 +21,11 @@ The program reads the odom scan message from the turtlebot. The message gets wri
 **command.cpp**
 
 This program use the data of shared memory of scan and odom listener. The messages get processed and the relevant data get extracted. The lidar message contains the distances of the lidar points obtained by the lidar sensor. The shift between distances is used to determine the relative position of pole to the robot. The odometry message provides the position and orientation of the robot absolute to the starting point. The pose at the initialization of the robot is the origin of the coordinate System of the robot. Those coordinates are used to create 4 positions around the pole. The desired movement of the robot is the following:
+
 •	Drive from the start position to first position in front of the pole
+
 •	Drive to the following positions around the pole in a circular counterclockwise movement
+
 •	Return to the starting position
 
 
