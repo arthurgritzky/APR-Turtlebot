@@ -53,11 +53,11 @@ g++ comander.cpp -o comander.o -lrt
 
 (Note it’s important to execute the comander last, because listener scan and odom are responsible for creation the shared memory and semaphores onto which the commander attaches)
 
-./lidarScan
+./lidarScan.o
 
-./odomScan
+./odomScan.o
 
-./commander
+./comander.o
 
 
 
