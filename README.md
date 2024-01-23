@@ -1,7 +1,6 @@
 # APR-Turtlebot
 
-
-Once the nodes are running you can monitor the sensor data using telnet:
+Usage:
 
 telnet <ip_address> 9997 # For the LiDAR Data
 telnet <ip_address> 9998 # for the Odometry Data
