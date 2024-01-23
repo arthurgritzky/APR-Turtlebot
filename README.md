@@ -3,7 +3,7 @@
 
 **Task:**
 
-The task of this project is to drive a turtlebot3 model burger out of a box and around a pole (ROLL). The project should be implemented in C++ without the usage of additional software besides standard libraries (no ROS). A standard ROS application is installed on the turtlebot prior to this project. This framework publishes the lidar scan an the odometry of the turtlebot and allows for call of angular and linear movements over a TCP-IP-connection. The developed program should be able to interpret the provide data and compute a commands to drive the robot a given path.
+The task of this project is to drive a turtlebot3 model burger out of a box and around a pole (ROLL). The project should be implemented in C++ without the usage of additional software besides standard libraries (no ROS). A standard ROS application is installed on the turtlebot prior to this project. This framework publishes the lidar scan and the odometry data of the turtlebot and allows for call of angular and linear movements over a TCP-IP-connection (cmd_vel). The developed program should be able to interpret the provide data and compute a commands to drive the robot a given path.
 
 
 ![Task](https://github.com/arthurgritzky/APR-Turtlebot/assets/89546471/84ae5df5-99ca-4b83-87f2-219a590606ed)
