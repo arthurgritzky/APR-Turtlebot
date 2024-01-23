@@ -62,7 +62,7 @@ g++ comander.cpp -o comander.o -lrt
 
 
 
-The following parameters need to be ajusted for the application:
+**The following parameters need to be ajusted for the application:**
 
 
 o	IP-address of the robot  (in this case 192.168.100.54)
